@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tables Version="9.14.7312.36185" NameSpace="XCode.Membership" ConnName="Membership" Output="" BaseClass="Entity" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:schemaLocation="http://www.newlifex.com https://raw.githubusercontent.com/NewLifeX/X/master/XCode/ModelSchema.xsd" ChineseFileName="True" NameIgnoreCase="True" xmlns="http://www.newlifex.com/ModelSchema.xsd">
+  <Table Name="Book" TableName="Book" Description="book" DbType="SqlServer" NameIgnoreCase="False" RenderGenEntity="true">
+    <Columns>
+      <Column Name="ID" ColumnName="ID" DataType="Int32" Identity="True" PrimaryKey="True" Description="编号" />
+      <Column Name="Name" ColumnName="Name" DataType="String" Master="True" Nullable="False" Description="名称" />
+    </Columns>
+  </Table>
+</Tables>
